@@ -18,10 +18,10 @@ setup(name='sparse_dot_topn',
       setup_requires=[
           # Setuptools 18.0 properly handles Cython extensions.
           'setuptools>=18.0',
-          'cython',
+          'Cython',
       ],
        install_requires=[
-          'cython',
+          'Cython',
       ],
       packages=['sparse_dot_topn'],
       cmdclass={'build_ext': build_ext},
